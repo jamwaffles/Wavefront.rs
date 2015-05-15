@@ -1,5 +1,7 @@
 mod wavefront;
 
 fn main() {
-	let mut model = wavefront::WavefrontModel::new("./models/cube.obj");
+	let model = wavefront::WavefrontModel::new("./models/cube.obj");
+
+	model.draw();
 }
