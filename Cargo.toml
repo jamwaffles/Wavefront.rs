@@ -1,4 +1,8 @@
 [package]
 name = "wavefront"
-version = "0.1.0"
+version = "0.1.0ca"
 authors = ["James Waples <jamwaffles@gmail.com>"]
+
+[dependencies]
+piston = "0.1.1"
+piston-shaders = "0.0.0"
