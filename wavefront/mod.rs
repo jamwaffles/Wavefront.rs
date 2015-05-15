@@ -66,8 +66,7 @@ impl WavefrontModel {
 
 	pub fn draw(&self) {
 		for face in self.faces.iter() {
-			// println!("Face [ {}, {}, {} ]", self.vertices[face.v1], self.vertices[face.v2], self.vertices[face.v3]);
-			println!("{}", self.vertices[face.v1]);
+			println!("Face [ {}, {}, {} ]", self.vertices[face.v1], self.vertices[face.v2], self.vertices[face.v3]);
 		}
 	}
 }
